@@ -92,12 +92,12 @@ $template->assign_sect('one.two', ['name' => 'Test2']);
 would create a section "two", inside a section "one". You use subsections in your templates by including an opening section comment inside another section. For example:
 
 ```
-\<!-- BEGIN one -->
+<!-- BEGIN one -->
 {one.name}
-\<!-- BEGIN two -->
+<!-- BEGIN two -->
 {one.two.name}
-\<!-- END two -->
-\<!-- END one -->
+<!-- END two -->
+<!-- END one -->
 ```
 
 Subsections can be conditional or looped independently from their parents, for example, showing section "one", does not necessarily show section two. Section two can be looped multiple times inside one loop of section one. Looping and conditionals follows what you've called in your PHP. For example, the following PHP code:
