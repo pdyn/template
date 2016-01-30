@@ -1,0 +1,22 @@
+{
+    "name": "pdyn/template",
+    "description": "A fast, simple Html template library with support for conditionals, loops, and includes.",
+    "type": "library",
+    "keywords": ["template", "html"],
+    "homepage": "https://pdyn.net",
+    "license": "GPL-3.0+",
+    "authors": [
+    	{
+    		"name": "James McQuillan",
+            "email": "james@pdyn.net",
+            "role": "Developer"
+    	}
+    ],
+    "support": {
+    	"email": "support@pdyn.net"
+    },
+    "version": "1.0.0",
+    "require": {
+        "php": ">=5.4.0"
+    }
+}
