@@ -22,9 +22,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 namespace pdyn\template\tests;
 
-require_once(__DIR__.'/../TemplateInterface.php');
-require_once(__DIR__.'/../HtmlTemplate.php');
-
 /**
  * A mock HtmlTemplate implementation allowing access to all protected properties/methods.
  */
