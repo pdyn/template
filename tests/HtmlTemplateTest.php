@@ -103,9 +103,11 @@ class MockHtmlTemplate extends \pdyn\template\HtmlTemplate {
 }
 
 /**
- * Test HtmlTemplate
+ * Test HtmlTemplate.
+ *
  * @group pdyn
  * @group pdyn_template
+ * @codeCoverageIgnore
  */
 class HtmlTemplateTest extends \PHPUnit_Framework_TestCase {
 	/**
